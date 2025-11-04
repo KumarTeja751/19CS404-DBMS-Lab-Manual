@@ -96,7 +96,7 @@ EXCEPTION
    WHEN OTHERS THEN
       DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
 END;
-/
+
 ```
 
 **Output:**  
@@ -151,7 +151,7 @@ EXCEPTION
    WHEN OTHERS THEN
       DBMS_OUTPUT.PUT_LINE('Unexpected error: ' || SQLERRM);
 END;
-/
+
 ```
 
 **Output:**  
@@ -205,7 +205,6 @@ EXCEPTION
    WHEN OTHERS THEN
       DBMS_OUTPUT.PUT_LINE('Unexpected error: ' || SQLERRM);
 END;
-/
 
 ```
 
@@ -300,7 +299,6 @@ EXCEPTION
    WHEN OTHERS THEN
       DBMS_OUTPUT.PUT_LINE('Error during update: ' || SQLERRM);
 END;
-/
 ```
 
 **Output:**  
